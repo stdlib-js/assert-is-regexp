@@ -1,4 +1,0 @@
-// Copyright (c) 2022 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-/// <reference types="./mod.d.ts" />
-var t="function"==typeof Symbol&&"symbol"==typeof Symbol("foo");function o(){return t&&"symbol"==typeof Symbol.toStringTag}var r=Object.prototype.toString;var e=Object.prototype.hasOwnProperty;var n="function"==typeof Symbol?Symbol.toStringTag:"";var l=o()?function(t){var o,l,c,a,u;if(null==t)return r.call(t);l=t[n],u=n,o=null!=(a=t)&&e.call(a,u);try{t[n]=void 0}catch(o){return r.call(t)}return c=r.call(t),o?t[n]=l:delete t[n],c}:function(t){return r.call(t)},c=RegExp.prototype.exec;var a=o();function u(t){return"object"==typeof t&&(t instanceof RegExp||(a?function(t){try{return c.call(t),!0}catch(t){return!1}}(t):"[object RegExp]"===l(t)))}export{u as default};
-//# sourceMappingURL=mod.js.map
