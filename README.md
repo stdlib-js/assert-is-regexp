@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isRegExp from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-regexp@deno/mod.js';
+import isRegExp from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-regexp@v0.1.0-deno/mod.js';
 ```
 
 #### isRegExp( value )
@@ -68,7 +68,7 @@ bool = isRegExp( {} );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isRegExp from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-regexp@deno/mod.js';
+import isRegExp from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-regexp@v0.1.0-deno/mod.js';
 
 var bool = isRegExp( /.+/ );
 // returns true
